@@ -1,0 +1,34 @@
+{
+  "build": {
+    "beforeBuildCommand": "npm run build",
+    "beforeDevCommand": "npm run dev",
+    "devPath": "http://localhost:5173",
+    "distDir": "../dist"
+  },
+  "package": {
+    "productName": "Velocitext",
+    "version": "0.0.1"
+  },
+  "tauri": {
+    "allowlist": {
+      "all": true
+    },
+    "windows": [
+      {
+        "title": "Velocitext",
+        "width": 740,
+        "height": 1200
+      }
+    ],
+    "bundle": {
+      "active": true,
+      "targets": ["deb", "appimage", "rpm"],
+      "identifier": "dev.jndjs.velocitext",
+      "icon": ["icons/icon.png"]
+    },
+    "security": {
+      "csp": null
+    }
+  },
+  "plugins": {}
+}

@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Velocitext
+Name[fr]=Velocitext
+Comment=Local-first notes app
+Comment[fr]=Application de notes locale
+Exec=velocitext
+Terminal=false
+Type=Application
+Icon=velocitext
+Categories=Office;Utility;
