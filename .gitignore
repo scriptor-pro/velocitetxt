@@ -1,6 +1,7 @@
 node_modules/
 dist/
 src-tauri/target/
+agent.md
 .DS_Store
 .env
 .env.*
